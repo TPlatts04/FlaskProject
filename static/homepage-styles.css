@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  font-family: "Playfair Display", sans-serif, monospace;
+  background-color: rgb(56, 56, 56);
+}
+body nav {
+  background-color: rgb(32, 32, 32);
+}
+body nav .navbar-brand {
+  color: white;
+}
+body nav .navbar-brand:hover {
+  color: white;
+}
+body nav .nav-link {
+  color: white;
+}
+body nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+body .container {
+  min-width: 99vw;
+  min-height: 94vh;
+}
+body .container .title-container {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0% 0% 0%;
+}
+body .container .title-container .home {
+  color: white;
+  text-decoration: underline;
+}
+body .container .info-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto 0% auto;
+  padding: 5px 10px 5px 10px;
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+  border: 2px whitesmoke solid;
+  border-radius: 5px;
+  max-width: 50%;
+}
+body .container .info-container .info-title {
+  color: white;
+  margin: 2% 0% 2% 0%;
+  text-align: center;
+}
+body .container .info-container .info-text {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+body .container .info-container .info-text .github-link {
+  text-decoration: underline;
+  transition: color 150ms;
+  color: white;
+}
+body .container .info-container .info-text .github-link:hover {
+  color: rgb(0, 145, 170);
+}/*# sourceMappingURL=homepage-styles.css.map */
