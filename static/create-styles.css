@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body .create-container {
+  background-color: #393E46;
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  max-height: 55vh;
+  margin: 5% auto 0px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px #EEEEEE solid;
+}
+body .create-container .create-title {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+}
+body .create-container .form-create {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto 0px auto;
+  row-gap: 25px;
+  max-width: 50%;
+  align-items: center;
+}
+body .create-container .form-create .create-username, body .create-container .form-create .create-password {
+  min-width: 15%;
+  font-size: 22px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+}
+body .create-container .form-create .create-username:focus, body .create-container .form-create .create-password:focus {
+  background-color: rgb(240, 240, 240);
+}
+body .create-container .form-create .requirements-container {
+  color: #00ADB5;
+  font-size: 18px;
+}
+body .create-container .form-create .requirements-container .requirements {
+  margin: 0px auto 0px auto;
+}
+body .create-container .form-create .requirements-container ul {
+  list-style-type: disc;
+  padding: 0px;
+}
+body .create-container .form-create .create-submit {
+  min-width: 15%;
+  font-size: 20px;
+  background-color: white;
+  border: 1.5px black solid;
+  border-radius: 10px;
+  transition: all 150ms;
+}
+body .create-container .form-create .create-submit:hover {
+  background-color: #00ADB5;
+  border: 1.5px white solid;
+  color: white;
+  scale: 105%;
+}
+body .create-container .loginAccount {
+  text-align: center;
+  margin: 2% 0px 0px 0px;
+  padding: 0px 0px 15px 0px;
+}/*# sourceMappingURL=create-styles.css.map */

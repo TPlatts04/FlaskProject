@@ -4,10 +4,10 @@ $text-color: white;
 
 body{
     font-family: 'Playfair Display', sans-serif, monospace;
-    background-color: rgb(56, 56, 56);
+    background-color: #222831; /* Base background */
 
     nav {
-        background-color: rgb(32, 32, 32);
+        background-color: #393E46; /* Navbar BG Colour */
         
         .navbar-brand {
             color: $text-color;
@@ -29,7 +29,7 @@ body{
 
     .container {
         min-width: 99vw;
-        min-height: 94vh;
+        max-height: 94vh;
     
         .title-container{
             display: flex;

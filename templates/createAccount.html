@@ -1,0 +1,28 @@
+{%extends "base.html"%}
+
+{%block pageTitle%}Create Account{%endblock%}
+{%block createContent%}
+    <div class="create-container" id="create-container">
+        <h1 class="create-title" id="create-title">Create an Account</h1>
+        <form action="post" class="form-create" id="form-create">
+            <input type="text" class="create-username" id="create-username" name="create-username" placeholder="Username:" required>
+            <input type="password" class="create-password" id="create-password" name="create-password" placeholder="Password:" required>
+            <div class="requirements-container" id="requirements-container">
+                <p class="requirements">Password Requirements:</p>
+                <ul class="requirements-list" id="requirements-list">
+                    <li>
+                        At least 1 Capitalised letter
+                    </li>
+                    <li>
+                        3+ Numbers
+                    </li>
+                    <li>
+                        8+ Characters
+                    </li>
+                </ul>
+            </div>
+            <input type="submit" value="Create" class="create-submit" id="create-submit">
+        </form>
+        <p class="loginAccount" id="loginAccount">Already have an account? <a href={{url_for('login')}}>Login here!</a></p>
+    </div>
+{%endblock%}

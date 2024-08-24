@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+$text-color: white;
+
+body{
+
+    .form-container {
+        background-color: #393E46;
+        display: flex;
+        flex-direction: column;
+        max-width: 50vw;
+        max-height: 50vh;
+        margin: 5% auto 0px auto;
+        padding: 10px;
+        border-radius: 15px;
+        border: 2px #EEEEEE solid;
+
+        .login-title{
+            color: $text-color;
+            text-decoration: underline;
+            text-align: center;
+            font-weight: 500;
+            padding: 10px;
+        }
+        
+        .form {
+            display: flex;
+            flex-direction: column;
+            margin: 5% auto 0px auto;
+            row-gap: 25px;
+            max-width: 50%;
+            align-items: center;
+
+            .username, .password {
+                min-width: 15%;
+                font-size: 22px;
+                border: 1.5px solid black;
+                border-radius: 10px;
+
+                &:focus{
+                    background-color: rgb(240, 240, 240);
+                }
+            }
+
+            .submit {
+                min-width:15%; 
+                font-size: 20px;
+                background-color: white;
+                border: 1.5px black solid;
+                border-radius: 10px;
+                transition: all 150ms;
+
+                &:hover{
+                    background-color: #00ADB5;
+                    border: 1.5px white solid;
+                    color: white;
+                    scale: 105%;
+                }
+            }
+        }
+        .createAccount{
+            text-align: center;
+            margin: 2% 0px 0px 0px;
+        }
+    }
+}
