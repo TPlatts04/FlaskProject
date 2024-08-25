@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body .about-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 75vw;
+  margin: 5% auto 0px auto;
+  padding: 0px 2% 0px 2%;
+  align-items: center;
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+  border: 1.5px black solid;
+  border-radius: 10px;
+}
+body .about-container .about-title-container {
+  margin: 2% 0px 5% 0px;
+}/*# sourceMappingURL=about-styles.css.map */

@@ -9,8 +9,8 @@ body {
         display: flex;
         flex-direction: column;
         max-width: 50vw;
-        max-height: 55vh;
-        margin: 5% auto 0px auto;
+        min-height: 55vh;
+        margin: 2% auto 0px auto;
         padding: 10px;
         border-radius: 15px;
         border: 2px #EEEEEE solid;
@@ -32,7 +32,7 @@ body {
             max-width: 50%;
             align-items: center;
 
-            .create-username, .create-password {
+            .create-username, .create-password, .key {
                 min-width: 15%;
                 font-size: 22px;
                 border: 1.5px solid black;
@@ -78,5 +78,16 @@ body {
             margin: 2% 0px 0px 0px;
             padding: 0px 0px 15px 0px;
         }
+
+        .key-info {
+            color:#00ADB5;
+        }
+    }
+
+    .flash-message{
+        color: $text-color;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 25px;
     }
 }

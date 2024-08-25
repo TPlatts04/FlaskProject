@@ -4,8 +4,8 @@ body .create-container {
   display: flex;
   flex-direction: column;
   max-width: 50vw;
-  max-height: 55vh;
-  margin: 5% auto 0px auto;
+  min-height: 55vh;
+  margin: 2% auto 0px auto;
   padding: 10px;
   border-radius: 15px;
   border: 2px #EEEEEE solid;
@@ -25,13 +25,13 @@ body .create-container .form-create {
   max-width: 50%;
   align-items: center;
 }
-body .create-container .form-create .create-username, body .create-container .form-create .create-password {
+body .create-container .form-create .create-username, body .create-container .form-create .create-password, body .create-container .form-create .key {
   min-width: 15%;
   font-size: 22px;
   border: 1.5px solid black;
   border-radius: 10px;
 }
-body .create-container .form-create .create-username:focus, body .create-container .form-create .create-password:focus {
+body .create-container .form-create .create-username:focus, body .create-container .form-create .create-password:focus, body .create-container .form-create .key:focus {
   background-color: rgb(240, 240, 240);
 }
 body .create-container .form-create .requirements-container {
@@ -63,4 +63,13 @@ body .create-container .loginAccount {
   text-align: center;
   margin: 2% 0px 0px 0px;
   padding: 0px 0px 15px 0px;
+}
+body .create-container .key-info {
+  color: #00ADB5;
+}
+body .flash-message {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 25px;
 }/*# sourceMappingURL=create-styles.css.map */

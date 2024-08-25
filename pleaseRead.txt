@@ -1,0 +1,4 @@
+NOTE:
+
+The way i am storing data from the website is not how anyone should store data, i am just doing it this way because i have no knowledge of databases,
+but as soon as i finish Django and Flask, i wil be moving onto databases and start storing data better.

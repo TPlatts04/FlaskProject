@@ -4,7 +4,7 @@ body .form-container {
   display: flex;
   flex-direction: column;
   max-width: 50vw;
-  max-height: 50vh;
+  min-height: 50vh;
   margin: 5% auto 0px auto;
   padding: 10px;
   border-radius: 15px;
@@ -25,13 +25,13 @@ body .form-container .form {
   max-width: 50%;
   align-items: center;
 }
-body .form-container .form .username, body .form-container .form .password {
+body .form-container .form .username, body .form-container .form .password, body .form-container .form .encryptionKey {
   min-width: 15%;
   font-size: 22px;
   border: 1.5px solid black;
   border-radius: 10px;
 }
-body .form-container .form .username:focus, body .form-container .form .password:focus {
+body .form-container .form .username:focus, body .form-container .form .password:focus, body .form-container .form .encryptionKey:focus {
   background-color: rgb(240, 240, 240);
 }
 body .form-container .form .submit {
@@ -41,6 +41,7 @@ body .form-container .form .submit {
   border: 1.5px black solid;
   border-radius: 10px;
   transition: all 150ms;
+  margin: 8% 0px 0px 0px;
 }
 body .form-container .form .submit:hover {
   background-color: #00ADB5;
@@ -50,5 +51,5 @@ body .form-container .form .submit:hover {
 }
 body .form-container .createAccount {
   text-align: center;
-  margin: 2% 0px 0px 0px;
+  margin: 8% 0px 0px 0px;
 }/*# sourceMappingURL=login-styles.css.map */

@@ -9,7 +9,7 @@ body{
         display: flex;
         flex-direction: column;
         max-width: 50vw;
-        max-height: 50vh;
+        min-height: 50vh;
         margin: 5% auto 0px auto;
         padding: 10px;
         border-radius: 15px;
@@ -31,7 +31,7 @@ body{
             max-width: 50%;
             align-items: center;
 
-            .username, .password {
+            .username, .password, .encryptionKey {
                 min-width: 15%;
                 font-size: 22px;
                 border: 1.5px solid black;
@@ -49,6 +49,7 @@ body{
                 border: 1.5px black solid;
                 border-radius: 10px;
                 transition: all 150ms;
+                margin: 8% 0px 0px 0px;
 
                 &:hover{
                     background-color: #00ADB5;
@@ -60,7 +61,7 @@ body{
         }
         .createAccount{
             text-align: center;
-            margin: 2% 0px 0px 0px;
+            margin: 8% 0px 0px 0px;
         }
     }
 }
