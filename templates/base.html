@@ -30,7 +30,7 @@
           </li>
           <li class="nav-item">
             {% if session.profileUsername %}
-              <a class="nav-link" href={{url_for('homepage')}}>{{ session.profileUsername }}</a>
+              <a class="nav-link" href={{url_for('logout')}} title="Click here to logout.">{{ session.profileUsername }}</a>
             {% endif %}
           </li>
         </ul>

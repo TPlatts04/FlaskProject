@@ -68,6 +68,16 @@ def createAccount():
 def about():
     return render_template("about.html")
 
+@app.route("/logout")
+def logout():
+    username, password, profileUsername = session["username"], session["password"], session["profileUsername"]
+    session.pop(username, None)
+    session.pop(password, None)
+    session.pop(profileUsername, None)
+    session["profileUsername"] = None
+    flash("You have been logged out.")
+    return render_template("home.html")
+
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
